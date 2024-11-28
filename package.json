@@ -2,7 +2,15 @@
   "name": "@timdehof-dev/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "prettier --check \"**/*.{ts,tsx,md}\""
+  },
   "private": true,
   "dependencies": {
     "@nxtensions/astro": "19.0.1"
